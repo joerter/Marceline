@@ -539,7 +539,10 @@ img {
    3. General
    ========================================================================== */
 .masthead {
-  background: rgba(130,207,208,0.6) url("../img/header.jpg") repeat-y;
+  background: rgba(130,207,208,0.6) url("../img/header.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
   width: 30%;
   max-height: 100%;
   text-align: center;
@@ -565,6 +568,7 @@ img {
 .masthead .header-wrapper .logo a img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 .masthead .header-wrapper .logo + .title {
   position: initial;
